@@ -183,7 +183,7 @@ function M.read_token(reader, init_ch)
       return table.concat(sb)
     end
 
-    sb[#sb] = ch
+    sb[#sb + 1] = ch
   end
 end
 
